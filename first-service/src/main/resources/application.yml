@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: first-service    # 서비스 이름 지정
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/    # Eureka 서버 위치
